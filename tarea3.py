@@ -3,6 +3,9 @@ from scipy import stats
 import matplotlib.pyplot as plt
 import numpy as np
 
+# Elimina aviso sobre cantidad de figuras generadas
+plt.rcParams.update({'figure.max_open_warning': 0})
+
 
 # Funcion para graficar los diagramas de caja
 def diagrama_caja(datos, titulo, xlabel, ylabel):
